@@ -187,22 +187,22 @@ void q_1_23() {
 }
 
 int main() {
-    basic_io();
+    // basic_io();
     basic_while();
     basic_for();
-    basic_if();
-    basic_cin();
+    // basic_if();
+    // basic_cin();
     q_1_3();
-    q_1_4();
-    q_1_5();
+    // q_1_4();
+    // q_1_5();
     q_1_9();
     q_1_10();
-    q_1_11();
+    // q_1_11();
     q_1_16();
-    count_num();
-    q_1_20();
-    q_1_21();
-    q_1_22();
-    q_1_23();
+    // count_num();
+    // q_1_20();
+    // q_1_21();
+    // q_1_22();
+    // q_1_23();
     return 0;
 }
