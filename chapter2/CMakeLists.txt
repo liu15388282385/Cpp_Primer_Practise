@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.20.0)
 project(ch2 VERSION 0.1.0)
 
 include(CTest)
