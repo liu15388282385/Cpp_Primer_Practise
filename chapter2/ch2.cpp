@@ -48,7 +48,7 @@ int main() {
     // ex2_3();
     // ex2_8();
     // ex2_14();
-    ex2_18();
+    // ex2_18();
 
     LStack<double> OPND; //  操作数栈定义；
     LStack<char> OPTR;   //  操作符栈定义；
