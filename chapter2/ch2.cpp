@@ -1,7 +1,6 @@
 #include <iostream>
 
-void ex2_3()
-{
+void ex2_3() {
     std::cout << "Hello, world!\n";
     unsigned u = 10, u2 = 42;
     std::cout << u2 - u << std::endl;
@@ -14,22 +13,19 @@ void ex2_3()
     std::cout << u - i << std::endl;
 }
 
-void ex2_8()
-{
+void ex2_8() {
     std::cout << 2 << "\115\012";
     std::cout << 2 << "\t\115\012";
 }
 
-void ex2_14()
-{
+void ex2_14() {
     int i = 100, sum = 0;
     for (int i = 0; i != 10; ++i)
         sum += i;
     std::cout << i << " " << sum << std::endl;
 }
 
-void ex2_18()
-{
+void ex2_18() {
     int a = 0, b = 1;
     int *p1 = &a, *p2 = &b;
 
@@ -42,15 +38,13 @@ void ex2_18()
 
 #include "LStack.h"
 
-bool Get2Operands(LStack<double> &opnd, double &x, double &y)
-{
+bool Get2Operands(LStack<double> &opnd, double &x, double &y) {
     bool temp = true;
     temp = (opnd.pop(x) && opnd.pop(y));
     return temp;
 }
 
-int main()
-{
+int main() {
     // ex2_3();
     // ex2_8();
     // ex2_14();

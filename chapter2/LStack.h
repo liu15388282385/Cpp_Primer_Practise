@@ -31,8 +31,7 @@ public:
     }
     //³öÕ»
     bool pop(Elem &item) {
-        if (size == 0)
-        {
+        if (size == 0) {
             return false;
         }
         Link<Elem> *tempElem = top;
@@ -50,8 +49,7 @@ public:
     }
     //È¡Öµ
     bool topValue(Elem &item) {
-        if (size == 0)
-        {
+        if (size == 0) {
             return false;
         }
         item = top->element;
